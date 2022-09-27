@@ -1,7 +1,11 @@
 
-const SectionWrapper = () => {
+const SectionWrapper = ({ title, description, showBtn, mockupImg }) => {
   return (
-    <div>SectionWrapper</div>
+    <div>
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <img src={mockupImg} alt='mockup' />
+    </div>
   )
 }
 
