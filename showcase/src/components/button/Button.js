@@ -1,5 +1,5 @@
 
-const Button = () => {
+const Button = ({ assetUrl, link }) => {
   return (
     <div>Button</div>
   )
