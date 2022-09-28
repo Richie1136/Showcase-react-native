@@ -12,6 +12,7 @@ function App() {
         description="Buy, store, collect NFTs, exchange and earn Crypto. Join 25+ million people"
         showBtn
         mockupImg={home}
+        banner="banner"
       />
     </>
   );
