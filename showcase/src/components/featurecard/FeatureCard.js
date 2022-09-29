@@ -1,6 +1,8 @@
+import styles from "../../styles/Global"
+
 
 const FeatureCard = ({ iconUrl, iconText }) => (
-  <div>{iconText}</div>
+  <div className={styles.featureCard}>{iconText}</div>
 )
 
 export default FeatureCard

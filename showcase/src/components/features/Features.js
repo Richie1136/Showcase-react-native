@@ -1,6 +1,7 @@
 import styles from "../../styles/Global"
 import FeatureCard from "../featurecard/FeatureCard"
 import reactImg from '../../assets/react.png'
+import javaScriptImg from '../../assets/javascript.png'
 
 
 const Features = () => {
@@ -13,6 +14,7 @@ const Features = () => {
         </div>
         <div className={`${styles.flexWrap}`}>
           <FeatureCard iconText="React Native" iconUrl={reactImg} />
+          <FeatureCard iconText="JavaScript" iconUrl={javaScriptImg} />
         </div>
       </div>
     </div>
