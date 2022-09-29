@@ -33,6 +33,7 @@ function App() {
         mockupImg={mockup}
         banner="banner02"
       />
+      <Download />
     </>
   );
 }
