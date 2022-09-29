@@ -3,7 +3,7 @@ import styles from "../../styles/Global"
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <div className={`${styles.section} ${styles.bgPrimary} banner03`}></div>
   )
 }
 
