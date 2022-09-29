@@ -20,6 +20,7 @@ function App() {
         mockupImg={homeCard}
         reverse
       />
+      <Features />
     </>
   );
 }

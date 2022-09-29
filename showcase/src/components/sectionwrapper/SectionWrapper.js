@@ -13,7 +13,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           {showBtn && <Button assetUrl={expo} link="deployed nft marketplace" />}
         </div>
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
-          <img className={`${styles.sectionImg}`} src={mockupImg} alt='mockup' />
+          <img className={`${reverse ? " fadeLeftMini" : " fadeRightMini"} ${styles.sectionImg}`} src={mockupImg} alt='mockup' />
         </div>
       </div>
     </div>
