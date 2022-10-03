@@ -34,6 +34,11 @@ function App() {
         banner="banner02"
       />
       <Download />
+      <div>
+        <p>
+          Made by {" "} <span className='bold'>© Richard Hagenah 2022</span>
+        </p>
+      </div>
     </>
   );
 }
